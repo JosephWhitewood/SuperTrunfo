@@ -1,0 +1,2 @@
+# SuperTrunfo
+Projeto da Faculdade
