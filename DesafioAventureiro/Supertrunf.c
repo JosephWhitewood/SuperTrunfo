@@ -34,8 +34,8 @@ void exibindo_cartas(const Cartas* carta, int numero_carta) {
     printf("Area: %.2f km2\n", carta->area);
     printf("PIB: %.2f\n", carta->pib);
     printf("Pontos Turisticos: %d\n", carta->pontos_turisticos);
-    printf("Densidade Demografica: %.2f \n", carta->populacao / carta->area);
-    printf("PIB per capita: %.2f \n", carta->pib / carta->populacao);
+    printf("Densidade Demografica: %.2f \n", (float) (carta->populacao / carta->area);
+    printf("PIB per capita: %.2f \n", (float) (carta->pib / carta->populacao);
     printf("\n");
 } // a utilização de void ajuda na leitura e otimiza o codigo
 
@@ -51,3 +51,4 @@ int main() {
 }
 
     
+
